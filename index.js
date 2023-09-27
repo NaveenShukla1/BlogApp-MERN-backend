@@ -14,7 +14,7 @@ const colors = require('colors')
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: ['https://blog-app-mern-frontend.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }))
